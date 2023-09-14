@@ -35,4 +35,10 @@ $(document).ready(function() {
         var result = parseInt(bla) - parseInt(blb);
         alert("The minus is: " + result);
     });
+    $('#himanshu').click(function() {
+        var bla = $('#txt_name1').val();
+        var blb = $('#txt_name2').val();
+        var result = parseInt(bla) - parseInt(blb);
+        alert("The minus is: " + result);
+    });
 });
